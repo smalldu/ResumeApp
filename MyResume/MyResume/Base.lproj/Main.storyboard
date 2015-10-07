@@ -489,8 +489,8 @@ iOS部分对基础控件没有压力，AutoLayout比较熟悉，平时做得界�
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="项目经验" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAA-OH-VXX">
-                                <rect key="frame" x="0.0" y="40" width="320" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="项目经验" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GAA-OH-VXX">
+                                <rect key="frame" x="110" y="40" width="100" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -541,6 +541,8 @@ iOS部分对基础控件没有压力，AutoLayout比较熟悉，平时做得界�
                             <constraint firstItem="7zZ-iN-tL8" firstAttribute="top" secondItem="4tQ-tw-5CW" secondAttribute="bottom" constant="20" id="FfD-7u-yrA"/>
                             <constraint firstItem="7zZ-iN-tL8" firstAttribute="width" secondItem="wBU-rf-bG4" secondAttribute="width" multiplier="0.9" id="TU2-Pv-Q0g"/>
                             <constraint firstItem="PU8-lj-NXT" firstAttribute="top" secondItem="7zZ-iN-tL8" secondAttribute="bottom" constant="100" id="aey-j7-YZm"/>
+                            <constraint firstItem="GAA-OH-VXX" firstAttribute="top" secondItem="QC2-nV-QIg" secondAttribute="bottom" constant="20" id="aok-aP-3cz"/>
+                            <constraint firstItem="GAA-OH-VXX" firstAttribute="centerX" secondItem="wBU-rf-bG4" secondAttribute="centerX" id="qHn-4x-bLG"/>
                             <constraint firstItem="4tQ-tw-5CW" firstAttribute="centerX" secondItem="wBU-rf-bG4" secondAttribute="centerX" id="sXr-2L-HF1"/>
                             <constraint firstItem="7zZ-iN-tL8" firstAttribute="centerX" secondItem="wBU-rf-bG4" secondAttribute="centerX" id="vSr-wY-Gbo"/>
                         </constraints>
